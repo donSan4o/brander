@@ -1,0 +1,16 @@
+label, input, select {
+	font-family: $base-font-family;
+	font-size: $label-font-size;
+	line-height: $label-line-height;
+	color: $grey;
+	background: transparent;
+}
+label {
+	font-weight: bold;
+}
+span {
+	font-family: $base-font-family;
+	font-size: $label-font-size;
+	line-height: $label-line-height;
+	color: $red;
+}

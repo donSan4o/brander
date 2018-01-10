@@ -1,0 +1,12 @@
+// Buttons
+.submit-button {
+  border: 1px solid $red;
+  border-radius: 23px;
+  width: 242px;
+  height: 45px;
+  color: $red;
+  background: $base-background-color;
+  font-size: $submit-btn-font-size;
+  line-height: $submit-btn-line-height;
+  cursor: pointer;
+}

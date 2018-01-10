@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>Credit</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fs.selecter.css"/>
+    <link rel="stylesheet" href="css/nouislider.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.min.css"/>
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- main content begin -->
+        <main id="main">
+            <form action="#" method="">
+                <div class="input-box">
+                    <label for="weight">Вес изделия</label>
+                    <input id="weight" type="text" placeholder="Вес изделия" />
+                </div>
+                <div class="input-box">
+                    <label for="metal-content">Проба металла</label>
+                    <select name="metal-content" id="metal-content">
+                        <option>585 проба</option>
+                        <option>750 проба</option>
+                        <option>850 проба</option>
+                    </select>
+                </div>
+                <div class="input-box checkbox-holder">
+                    <input id="stones" type="checkbox" />
+                    <label for="stones">Камни и вставки</label>
+                    <span>Окончательная оценочная стоимость залога может отличаться от указанной в расчете</span>
+                </div>
+                <div class="input-box">
+                    <label for="rate">Тарифный план <img class="info-image" src="images/info.png" alt="info-img"></label>
+                    <p class="info-block">
+                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <select name="rate" id="rate">
+                        <option>&laquo;Простой&raquo;</option>
+                        <option>&laquo;Непростой&raquo;</option>
+                        <option>&laquo;Сложный&raquo;</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="discount-status">Ваш дисконтный статус</label>
+                    <select name="discount-status" id="discount-status">
+                        <option>Без статуса</option>
+                        <option>Без статуса</option>
+                    </select>
+                </div>
+                <div class="input-box range-holder">
+                    <label for="amount">Срок кредитования до продления</label>
+                    <input type="hidden" id="amount" />
+                    <div class="range-wrapper">
+                        <div id="nouslider-amount"></div>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <button class="submit-button" id="calc-submit-gold" type="submit">Рассчитать кредит</button>
+                </div>
+            </form>
+        </main>
+        <!-- main content end -->
+    </div>
+    <noscript>Detected missing Javascript support. Certain website features will not operate correctly with Javascript disabled.</noscript>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.fs.selecter.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>
